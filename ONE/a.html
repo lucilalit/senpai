@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="1.css">
+</head>
+
+<body>
+    <header>
+        <div class="image">
+            <img src="download.jpeg" alt="Description of the image" height="400" width="1400">
+        </div>
+        <nav>
+            <div class="nav">
+                <a href="http://www.example.com" target="blank">Ticket</a>
+                <a href="http://www.example.com" target="self">Login us</a>
+                <a href="http://www.example.com" target="parent">Reserve</a>
+                <a href="http://www.example.com" target="top">Contact Us</a>
+            </div>
+        </nav><br>
+        <br>
+        <div class="sub">
+            <label for="Username">Username: </label>
+            <input type="text" name="Username" id="Username">
+            <br>
+            <label for="Email">Email: </label>
+            <input type="text" name="Email" id="Email">
+            <br>
+            <div>
+                <label for="Ph. No">PhNo. : </label>
+                <input type="number" name="Ph No."><br>
+                <br>
+            </div>
+        </div>
+        <label>Gender</label>
+        <input type="radio" id="Male" name="Gender" value="Male" required />
+        <label for="Male">Male</label>
+        <input type="radio" id="Female" name="Gender" value="Female" required />
+        <label for="Female">Female</label>
+        <input type="radio" id="Pnts" name="Gender" value="Pnts" required />
+        <label for="Pnts">Prefer not to say </label>
+        <br>
+        <br>
+    </header>
+    <main>
+        <p>
+            from:
+        </p>
+        <section>
+            <select name="Depart" id="Depart">
+                <option value="Delhi">Delhi</option>
+                <option value="Mumbai">Mumbai</option>
+                <option value="Punjab">Punjab</option>
+                <option value="Haryana">Haryana</option>
+            </select>
+        </section>
+        <p>
+            to:
+        </p>
+        <select name="Arrive" id="Arrive">
+            <option value="Delhi">Delhi</option>
+            <option value="Mumbai">Mumbai</option>
+            <option value="Punjab">Punjab</option>
+            <option value="Haryana">Haryana</option>
+        </select>
+        <button>search </button><br><br>
+        <br>
+        <table>
+            <caption>Researve bus scheadule</caption>
+            <thead>
+                <tr>
+                    <th>Bus details</th>
+                    <td colspan="2">Trip conformation</td>
+                </tr>
+                <tr>
+                    <th scope="col">Bus no.</th>
+                    <th scope="col">Origin</th>
+                    <th scope="col">Destination</th>
+                    <th scope="col">Departure Time</th>
+                    <th scope="col">Duration</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>ADC458</td>
+                    <td>New York City</td>
+                    <td>Boston</td>
+                    <td>9:00am</td>
+                    <td>2hours</td>
+                </tr>
+                <tr>
+
+                    <td>DRF364</td>
+                    <td>Sab Francisco</td>
+                    <td>Los Angeles</td>
+                    <td>11:00am</td>
+                    <td>7hours</td>
+                </tr>
+                <tr>
+                    <td>MIU042</td>
+                    <td>Miaami</td>
+                    <td>Orlando</td>
+                    <td>1:00am</td>
+                    <td>3hours</td>
+                </tr>
+                <tr>
+                    <td>KSI067</td>
+                    <td>Seattle</td>
+                    <td>Portland</td>
+                    <td>9:00am</td>
+                    <td>4hours</td>
+                </tr>
+                <tr>
+
+                    <td>CDD486</td>
+                    <td>Denver</td>
+                    <td>Las Vegas</td>
+                    <td>3:00pm</td>
+                    <td>7hours</td>
+                </tr>
+                <tr>
+
+                    <td>BID594</td>
+                    <td>Atlanta</td>
+                    <td>Nashville</td>
+                    <td>10:00am</td>
+                    <td>6hours</td>
+                </tr>
+                <tr>
+
+                    <td>XOD250</td>
+                    <td>Huston</td>
+                    <td>San Antonio</td>
+                    <td>12:00pm</td>
+                    <td>9hours</td>
+                </tr>
+            </tbody>
+        </table>
+        <h3>A step-by-step booking process</h3>
+        <ol type="A">
+            <li>Select origin and destination</li>
+            <li>Choose date and time</li>
+            <li>Enter passenger details</li>
+            <li>Confirm booking</li>
+        </ol>
+        <h3>Benifits of booking through Researve App</h3>
+        <ol>
+            <li>Comfortable seating</li>
+            <li>Reliable service</li>
+            <li>Competitive prices</li>
+            <ul>
+                <li>Discounts for regular custumers</li>
+            </ul>
+            <li>Friendly custumers support</li>
+        </ol>
+        <h3>Type of Bus searvice</h3>
+        <dl>
+            <dt><dfn>Standard Bus:</dfn></dt>
+            <dd>Regular seating with air conditioning</dd>
+            <dt><dfn>Delux Bus</dfn></dt>
+            <dd>Comfortable seating, extra legroom, and wifi</dd>
+            <dt><dfn>Executive Bus</dfn></dt>
+            <dd>Luxurious leather seats,personal entertainment systems, and complimetary meals </dd>
+        </dl>
+        <!-- //here we using abbr tag to see the full forms,and we use dfn for same purpose in AB material use of afn is wrong -->
+        <p> <abbr title="web design">WB</abbr>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, fuga
+            voluptatibus? Delectus dolores sint eligendi quaerat tenetur consequuntur esse reiciendis temporibus quam?
+            Ab nulla vitae fuga laudantium quisquam architecto illum.
+        </p>
+        <!-- example of dfn (tag in abbr tag thr font show in underline but in dfn tag the font show in italic )  -->
+        <p><dfn title="web design">WB</dfn>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis velit illo,
+            delectus non possimus amet dolor doloremque. Temporibus, dicta reprehenderit animi nam, architecto quisquam
+            incidunt aliquid nulla modi voluptas adipisci!</p>
+        <h2>Travel with world largest world service</h2>
+        <img src="download (1).jpeg" alt="" srcset="">
+        <h3>2000+</h3>
+        <p>Bus collection</p>
+        <img src="download (2).jpeg" alt="Family" srcset="">
+        <h2>2 Million+ </h2>
+        <p>Happy custumers globally </p>
+        <img src="download (3).jpeg" alt="">
+        <h2>
+            5000+
+        </h2>
+        <p>Tickets books everyday</p>
+        <h3>Comments:-</h3>
+        <h3>Vishal Agarwall</h3>
+        <h4>Coustomer since 2020</h4>
+        <p>4.9
+            Amazing travel experience with researve. Excellent staff
+        </p>
+        <h3>Rohit sharma</h3>
+        <h4>Customer since 2022</h4>
+        <p>4.3
+            Amazing service. Always a best time with researve.
+        </p>
+        <h3>Virat Kohli</h3>
+        <h4>Customer since 2029</h4>
+        <p>4.5
+            Bus was clean and journey was smooth. Reached on time.
+        </p>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
